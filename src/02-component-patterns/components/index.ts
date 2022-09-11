@@ -9,5 +9,5 @@ export { ProductButtons } from './ProductButtons';
 export const ProductCard = Object.assign(ProductCardHOC, {
     Title: ProductTitle,
     Image: ProductImage,
-    Button: ProductButtons
+    Buttons: ProductButtons
 })
