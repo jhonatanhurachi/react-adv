@@ -12,7 +12,6 @@ export const ShoppingPage = () => {
       <ProductCard
         product={product}
         key={product.id}
-        className="bg-dark text-white"
         initialValues={{
           count: 4,
           maxCount: 10,
@@ -21,9 +20,8 @@ export const ShoppingPage = () => {
         {({reset}) => (
           <>
             <ProductCard.Image />
-            <ProductCard.Title className="text-bold" />
-            <ProductCard.Buttons className="custom-buttons" />
-            <button onClick={reset}>Reset</button>
+            <ProductCard.Title />
+            <ProductCard.Buttons />
           </>
         )}
       </ProductCard>
